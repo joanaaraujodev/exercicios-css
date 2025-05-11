@@ -90,6 +90,13 @@ button {
   border: 0.1em solid #260BD9;
     background-color: white;
     color: #260BD9;
+    z-index: 20;
+}
+
+button:hover {
+    background-color: #260BD9;
+    cursor: pointer;
+    color: white;
 }
 
 .card_bottom span {
