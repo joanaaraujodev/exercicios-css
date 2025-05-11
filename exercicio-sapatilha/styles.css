@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
+
+
+* {
+    font-family: "Inter", sans-serif;
+    font-weight: 400;
+    
+}
+
+
+
+main{
+    background-color: #260BD9;
+    width: 100%;
+    max-width: 400px;
+    height: 90vh ;
+    margin: auto;
+    padding: 4rem 6rem;
+    position: relative;
+}
+
+.card {
+    background-color: white;
+    border-radius: 15px;
+    height: 86vh ;
+
+}
+
+.card span,h1 {
+    color: white;
+    font-size: 20px;
+
+}
+
+.card_grad {
+    background: linear-gradient(45deg, #F21B07, #bf9c11);
+    padding:1rem ;
+    border-radius: 15px 15px 0 0;
+    height: 510px;
+    position: relative;
+    overflow: hidden;
+}
+
+.card_top {
+    display: flex;
+    justify-content: space-between;
+    
+}
+
+.card_top img {
+    height: 20px;
+    width: auto;
+}
+
+.card_middle {
+    margin-top: 2.5rem;
+
+}
+
+.card_middle p {
+    font-size: 0.87rem;
+    line-height: 1.3rem;
+    margin-top: 1.6rem;
+    color: white;
+ 
+}
+
+h2{
+    font-size: 19rem;
+    position: absolute;
+    left: 50%;
+    transform: translate(-47%, -78%);
+    font-weight: 500;
+    color: white;
+    opacity: 0.4;
+}
+
+.card_bottom{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+button {
+    font-size: 1.3em;
+    width: 6em;
+    margin-top: 2rem;
+    padding: 0.5em 1em;
+    border-radius: 2em;
+  border: 0.1em solid #260BD9;
+    background-color: white;
+    color: #260BD9;
+}
+
+.card_bottom span {
+    color: #bfbfbf;
+    font-weight: 400;
+    letter-spacing: 0.7em;
+    font-size: 0.8em;
+    margin-top: 0.6rem;
+    text-transform: uppercase;
+}
+
+
+.sapatilha {
+    position: absolute;
+    top: 17rem;
+    left: 8rem;
+}
